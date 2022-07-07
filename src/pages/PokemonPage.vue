@@ -3,8 +3,8 @@
     <img src="../assets/bg-pattern-card.svg" alt="" class="card-header" />
 
     <!-- TODO: img and question -->
-    <PokemonPicture />
-    
+    <PokemonPicture :pokemonId="150" :showPokemon="true" />
+
     <!-- TODO: Options-->
     <PokemonOptions />
   </article>
